@@ -25,7 +25,7 @@ footer{
     width: 100vw;
     object-fit: fill;
     display: inline-block;
-    
+    heigth:40vh;
   
     animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 5s; /* don't forget to set a duration! */
