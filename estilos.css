@@ -75,6 +75,8 @@ background-repeat: no-repeat;
 .carousel {
     width: 100vw;
     object-fit: cover;
+    padding-top:2%;
+    padding-bottom:2%;
 }
 /*UBICACIÓN*/
 .subtitulos2{
