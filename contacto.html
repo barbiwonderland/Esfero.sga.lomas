@@ -113,12 +113,12 @@ function sendMail(){
 Email.send({
 
     SecureToken : "3f2f481c-2bb8-49f4-88b1-24f49e314de3",
-    To : 'baqueroemanuel@gmail.com',
+    To : 'emanuelnicolasb@gmail.com',
     From : "barbiiee.8@gmail.com",
     Subject : "Prueba",
       Body : " <h2>Nombre : "+(new Persona()).nombre +" "+"</h2><h2>Apellido: "+(new Persona()).apellido +" </h2>"+ "<h3>E-mail : "+(new Persona()).mail +"</h3> "+ "<h3>Telefono : "+(new Persona()).telefono +"</h3> "+ "<h4>Asunto : "+(new Persona()).asunto + "</h4>" 
 }).then(
-  message => alert(message)
+  message => alert("Tu mensaje ha sido enviado, muchas gracias!");
 );
   }
   </script>
