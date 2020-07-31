@@ -116,7 +116,7 @@ Email.send({
     To : 'baqueroemanuel@gmail.com',
     From : "barbiiee.8@gmail.com",
     Subject : "Prueba",
-    Body : "Nombre : "+(new Persona()).nombre +" "+"Apellido: "+(new Persona()).apellido +" "+ "E-mail : "+(new Persona()).mail +" "+ "Telefono : "+(new Persona()).telefono +" "+ "Asunto : "+(new Persona()).asunto 
+      Body : " <h2>Nombre : "+(new Persona()).nombre +" "+"</h2><h2>Apellido: "+(new Persona()).apellido +" </h2>"+ "<h3>E-mail : "+(new Persona()).mail +"</h3> "+ "<h3>Telefono : "+(new Persona()).telefono +"</h3> "+ "<h4>Asunto : "+(new Persona()).asunto + "</h4>" 
 }).then(
   message => alert(message)
 );
