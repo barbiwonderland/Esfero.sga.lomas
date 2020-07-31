@@ -67,7 +67,7 @@ footer{
     heigth:40vh;
   
     animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a duration! */
+    animation-duration: 2s; /* don't forget to set a duration! */
   
 }
 .mapa{
