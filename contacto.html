@@ -72,6 +72,57 @@
 
 </section>
 
+    <div class="container">
+        <form >
+      
+          <label for="fname">Nombre</label>
+          <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+      
+          <label for="lname">Apellido</label>
+          <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+          
+          <label for="cel">Teléfono</label>
+          <input type="number"  id="cel" placeholder=" Tu télefono.." required>
+          <label for="email">Email:</label>
+          <input type="text" placeholder=" Tu Email.." name=" email" required id="email">
+      
+        
+          <textarea id="subject" name="subject" placeholder="Escribinos.." style="height:200px"></textarea>
+      
+             <button type="button" onclick="sendMail()">ENVIAR</button>
+      
+        </form>
+      </div>  
+    
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+function Persona(){
+  this.nombre =document.getElementById('fname').value;
+  this.apellido =document.getElementById('lname').value;
+  this.mail =document.getElementById('email').value;
+  this.telefono =document.getElementById('cel').value;
+  this.asunto =document.getElementById('subject').value;
+
+
+  
+}
+function sendMail(){
+
+Email.send({
+
+    SecureToken : "3f2f481c-2bb8-49f4-88b1-24f49e314de3",
+    To : 'baqueroemanuel@gmail.com',
+    From : "barbiiee.8@gmail.com",
+    Subject : "Prueba",
+    Body : "Nombre : "+(new Persona()).nombre +" "+"Apellido: "+(new Persona()).apellido +" "+ "E-mail : "+(new Persona()).mail +" "+ "Telefono : "+(new Persona()).telefono +" "+ "Asunto : "+(new Persona()).asunto 
+}).then(
+  message => alert(message)
+);
+  }
+  </script>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
