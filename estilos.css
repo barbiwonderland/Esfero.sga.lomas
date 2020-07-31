@@ -23,7 +23,7 @@ button {
 
 /* When moving the mouse over the submit button, add a darker green color */
 button:hover {
-  background-color:grey;
+  background-color:rgb(213, 37, 210);
 }
 
 
