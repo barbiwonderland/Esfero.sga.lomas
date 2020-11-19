@@ -1,0 +1,172 @@
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button {
+  background-color:blueviolet;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button:hover {
+  background-color:rgb(213, 37, 210);
+}
+
+
+input[type=number]{
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black!important;
+
+}
+.navbar-dark .navbar-brand{
+   
+    color:blue;
+}
+.navbar-dark{
+    color: white;
+}
+
+
+button{
+    color:white;
+}
+footer{
+   top: 0
+   ;
+}
+/*Galeria HTML*/
+.online{
+    width: 100vw;
+    object-fit: fill;
+    display: inline-block;
+    heigth:40vh;
+  
+    animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  
+}
+.mapa{
+ 
+
+  border: black  solid 5px;
+  width: 100%!important;
+
+}
+.animate__animated.animate__flash {
+    --animate-duration: 8s;
+    --animate-delay: 0.9s;
+  }
+  .carousel slide {
+border: violet solid 3px;
+  }
+
+/*clases Nosotros*/
+.nosotros h3 {
+   text-align: center;
+   padding-top: 2%;
+   font-family: 'Chakra Petch', sans-serif;
+   padding-bottom:2%;
+   
+ 
+}
+
+.nav-link:hover{
+background-color: rgb(213, 37, 210);
+}
+.nosul li{
+list-style: none;
+line-height: 2,5;
+padding-left: 2rem;
+background-image: url(flecha.jpg);
+background-position: 0 0;
+background-size: 1.6rem 1.6rem;
+background-repeat: no-repeat;
+
+
+
+
+}
+.carousel {
+    width: 100vw;
+    object-fit: cover;
+   
+    padding-bottom:2%;
+    heigth:30vh;
+}
+/*UBICACIÓN*/
+.subtitulos2{
+  color:black;
+
+text-align: center;
+}
+.col-sm-6 i{
+color:rgb(147, 40, 228);
+}
+.subtitulos  i{
+    color:rgb(147, 40, 228);
+  
+    
+    }
+    .subtitulos{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .col-sm-6{
+        font-size: 15px;
+        text-align: center;
+    }
+  
+    .homet{
+        
+        height: 100vh;
+        align-items: center;
+        margin: auto;
+    }
+    .subtitulos2 i{
+        color:rgb(147, 40, 228);
+      font-size:20px;
+      text-align: center;
+      }
+      footer i:hover{
+          color:rgb(213, 37, 210);
+      }
+      .contacto{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        
+      }
+form{
+  margin-top:2%;
+}
+footer{
+   bottom: 0
+   ;
+}
+
